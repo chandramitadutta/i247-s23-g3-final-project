@@ -4,12 +4,17 @@ const LoveMarriage = () => {
   return (
     <>
       <h1>Love and Marriage</h1>
+
+      <p>
+        Millennials are putting off significant milestones like marriage. In the
+        chart below, see how the median marriage age has increased over time
+      </p>
+
       <iframe
-        className="center"
         width="100%"
-        height="134"
+        height="585"
         frameborder="0"
-        src="https://observablehq.com/embed/dfc2cf9b5aebda10?cells=progressBar"
+        src="https://observablehq.com/embed/e520294c3c5741e1@40?cells=medianMarriageAgeChart"
       ></iframe>
     </>
   );

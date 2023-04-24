@@ -5,16 +5,20 @@ import WhoAreThey from "./WhoAreThey/WhoAreThey";
 import LoveMarriage from "./LoveMarriage/LoveMarriage";
 
 function App() {
+  const speed = 1;
+
   return (
-    <Parallax pages={3} style={{}}>
-      <ParallaxLayer offset={0} speed={0.1} className="center">
+    <Parallax pages={3} style={{ top: 0, left: 0 }}>
+      <ParallaxLayer offset={0} speed={speed} className="center">
         <img src={appLogo} alt="Logo" id="logo" />
       </ParallaxLayer>
-      <ParallaxLayer offset={1} speed={0.1} className="center">
+      <ParallaxLayer offset={1} speed={speed} className="center">
         <WhoAreThey />
       </ParallaxLayer>
-      <ParallaxLayer offset={2} speed={0.1} className="center">
-        <LoveMarriage />
+      <ParallaxLayer offset={2} speed={speed} className="center">
+        <div className="center">
+          <LoveMarriage />
+        </div>
       </ParallaxLayer>
     </Parallax>
   );
