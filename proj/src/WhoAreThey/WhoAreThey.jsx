@@ -15,27 +15,29 @@ const WhoAreThey = () => {
           never before. Millennials are now the largest generation, known for
           their digital fluency, entrepreneurial spirit, and socially-conscious
           values, and have already started to reshape the world we live in.
-          <br />
-          <br />
-          <div className="row center sixty">
-            <div className="column center">
-              <img
-                src={millennialMan}
-                alt="millennialMan"
-                id="millennialMan"
-                style={{ width: "100%" }}
-              />
-            </div>
-            <div className="column center">
-              <img
-                src={millennialWoman}
-                alt="millennialWoman"
-                id="millennialWoman"
-                style={{ width: "100%" }}
-              />
-            </div>
+        </p>
+        <br />
+        <br />
+        <div className="row center sixty">
+          <div className="column center">
+            <img
+              src={millennialMan}
+              alt="millennialMan"
+              id="millennialMan"
+              style={{ width: "100%" }}
+            />
           </div>
-          <br />
+          <div className="column center">
+            <img
+              src={millennialWoman}
+              alt="millennialWoman"
+              id="millennialWoman"
+              style={{ width: "100%" }}
+            />
+          </div>
+        </div>
+        <br />
+        <p>
           They are expected to significantly impact the economy and bring about
           changes in buying and selling practices, pushing companies to
           reevaluate their business strategies for years to come.
