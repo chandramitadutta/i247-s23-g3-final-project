@@ -17,8 +17,8 @@ const WhoAreThey = () => {
           values, and have already started to reshape the world we live in.
           <br />
           <br />
-          <div className="row center">
-            <div className="column">
+          <div className="row center sixty">
+            <div className="column center">
               <img
                 src={millennialMan}
                 alt="millennialMan"
@@ -26,7 +26,7 @@ const WhoAreThey = () => {
                 style={{ width: "100%" }}
               />
             </div>
-            <div className="column">
+            <div className="column center">
               <img
                 src={millennialWoman}
                 alt="millennialWoman"
