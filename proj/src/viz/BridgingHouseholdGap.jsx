@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 
-export default function TableauDashboard() {
+export default function BridgingHouseholdGap() {
   useEffect(() => {
-    const divElement = document.getElementById("viz1682297958241");
+    const divElement = document.getElementById("viz1682372971996");
     const vizElement = divElement.getElementsByTagName("object")[0];
     vizElement.style.height = "550px";
     vizElement.style.width = "100%";
@@ -13,17 +13,25 @@ export default function TableauDashboard() {
 
   return (
     <div>
+      <p>
+        {" "}
+        Over the years, the gap between married couple households and non-family
+        households have bridged.
+        <br />
+        Click on the Play button next to the chart below to see how the gap has
+        bridged over time
+      </p>
       <div
         class="tableauPlaceholder"
-        id="viz1682297958241"
-        style={{ position: "relative" }}
+        id="viz1682372971996"
+        // style="position: relative"
       >
         <noscript>
           <a href="#">
             <img
-              alt="Stub Data V "
-              src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;me&#47;median-marriage-age-by-year&#47;Sheet1&#47;1_rss.png"
-              style={{ border: "none" }}
+              alt="Year- 1964 "
+              src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ho&#47;Householdconditions&#47;Householdconditions&#47;1_rss.png"
+              style="border: none"
             />
           </a>
         </noscript>
@@ -31,12 +39,15 @@ export default function TableauDashboard() {
           <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
           <param name="embed_code_version" value="3" />
           <param name="site_root" value="" />
-          <param name="name" value="median-marriage-age-by-year&#47;Sheet1" />
+          <param
+            name="name"
+            value="Householdconditions&#47;Householdconditions"
+          />
           <param name="tabs" value="no" />
           <param name="toolbar" value="yes" />
           <param
             name="static_image"
-            value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;me&#47;median-marriage-age-by-year&#47;Sheet1&#47;1.png"
+            value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ho&#47;Householdconditions&#47;Householdconditions&#47;1.png"
           />
           <param name="animate_transition" value="yes" />
           <param name="display_static_image" value="yes" />

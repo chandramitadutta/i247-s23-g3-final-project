@@ -1,7 +1,7 @@
 const MedianMarriageAge = () => {
   return (
     <>
-      <div className="center">
+      <div>
         <p>
           Millennials are putting off significant milestones like marriage. In
           the chart below, see how the median marriage age has increased over

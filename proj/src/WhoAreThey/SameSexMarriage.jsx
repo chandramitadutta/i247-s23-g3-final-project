@@ -1,7 +1,7 @@
 const SameSexMarriage = () => {
   return (
     <>
-      <div className="center">
+      <div>
         <p>
           Millennials are also more inclusive, with the number of same-sex
           marriage increasing year-over-year
