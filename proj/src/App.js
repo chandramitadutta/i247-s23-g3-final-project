@@ -6,6 +6,7 @@ import MedianMarriageAge from "./WhoAreThey/MedianMarriageAge";
 import SameSexMarriage from "./WhoAreThey/SameSexMarriage";
 import BridgingHouseholdGap from "./viz/BridgingHouseholdGap";
 import SameSexMarriageViz from "./viz/SameSexMarriageViz";
+import FiveYrChangeHomeOwner from "./viz/FiveYrChangeHomeOwner";
 
 function App() {
   const speed = 0.2;
@@ -42,6 +43,7 @@ function App() {
       <img src={appLogo} alt="Logo" id="logo" />
       <WhoAreThey />
       <h1>Family and Living</h1>
+      <FiveYrChangeHomeOwner />
       <MedianMarriageAge />
       {/* <SameSexMarriage /> */}
       <BridgingHouseholdGap />
