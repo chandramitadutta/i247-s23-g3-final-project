@@ -7,8 +7,6 @@ const WhoAreThey = () => {
       <div className="center">
         <h1 className="center">Who Are They?</h1>
         <br />
-
-        <br />
         <p>
           Born between 1980 and 1996, millennials are a digital tribe that has
           grown up in a rapidly changing world, with access to information like
