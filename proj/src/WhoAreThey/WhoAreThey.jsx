@@ -40,6 +40,22 @@ const WhoAreThey = () => {
           changes in buying and selling practices, pushing companies to
           reevaluate their business strategies for years to come.
         </p>
+
+        <div id="timeline">
+          <br />
+
+          <p>Some story about lets see what all happened</p>
+          <br />
+          <iframe
+            src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1JUl7ELC-AImV7NfwoAAA9zl8PDWBgN1DS-R5hzmhWaM&font=Default&lang=en&initial_zoom=2&height=650"
+            width="100%"
+            height="650"
+            webkitallowfullscreen
+            mozallowfullscreen
+            allowfullscreen
+            frameborder="0"
+          ></iframe>
+        </div>
       </div>
     </>
   );
