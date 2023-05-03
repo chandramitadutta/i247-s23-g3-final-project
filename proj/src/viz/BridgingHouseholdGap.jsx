@@ -22,7 +22,7 @@ export default function BridgingHouseholdGap() {
         how the gap has bridged over time
       </p>
       <div
-        class="tableauPlaceholder"
+        className="tableauPlaceholder"
         id="viz1682372971996"
         // style="position: relative"
       >
@@ -35,7 +35,7 @@ export default function BridgingHouseholdGap() {
             />
           </a>
         </noscript>
-        <object class="tableauViz">
+        <object className="tableauViz">
           <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
           <param name="embed_code_version" value="3" />
           <param name="site_root" value="" />

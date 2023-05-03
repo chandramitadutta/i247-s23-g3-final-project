@@ -6,16 +6,18 @@ import SameSexMarriageViz from "./viz/SameSexMarriageViz";
 import FamilyLiving from "./FamilyLiving/FamilyLiving";
 
 function App() {
+  const style = { width: 1000, height: 150 };
   return (
-    <div className="center">
-      <img src={appLogo} alt="Logo" id="logo" />
-
-      <WhoAreThey />
-      <br />
-      <FamilyLiving />
-      <BridgingHouseholdGap />
-      <SameSexMarriageViz />
-    </div>
+    <>
+      <div className="center">
+        <img src={appLogo} alt="Logo" id="logo" />
+        <WhoAreThey />
+        <br />
+        <FamilyLiving />
+        <BridgingHouseholdGap />
+        <SameSexMarriageViz />
+      </div>
+    </>
   );
 }
 

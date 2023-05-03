@@ -7,7 +7,7 @@ export default function FamilyLiving() {
     <>
       <div>
         <Sticky top={10} bottomBoundary="#content-familyliving" innerZ={9999}>
-          <h1>Family and Living</h1>
+          <h1 className="text-6xl font-bold">Family and Living</h1>
         </Sticky>
         <div id="content-familyliving">
           <br />

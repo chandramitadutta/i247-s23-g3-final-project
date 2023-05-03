@@ -18,13 +18,13 @@ const WhoAreThey = () => {
 
   return (
     <>
-      <div className="center">
-        <Sticky top={10} bottomBoundary="#content-whoarethey">
-          <h1 className="center" id="header">
+      <div className="center" snap-y snap-mandatory scroll-smooth>
+        <Sticky top={10} bottomBoundary="#content-whoarethey" innerZ={9999}>
+          <h1 className="center text-6xl font-bold" id="header">
             Who Are They?
           </h1>
         </Sticky>
-        <div id="content-whoarethey">
+        <div id="content-whoarethey" className="snap-always snap-center">
           <br />
           <p>
             Born between 1980 and 1996, millennials are a digital tribe that has
@@ -34,8 +34,7 @@ const WhoAreThey = () => {
             socially-conscious values, and have already started to reshape the
             world we live in.
           </p>
-          <br />
-          <br />
+
           <div className="row center sixty" data-aos="zoom-in-up">
             <div className="column center">
               <img
@@ -61,11 +60,10 @@ const WhoAreThey = () => {
             reevaluate their business strategies for years to come.
           </p>
 
-          <div id="timeline">
+          <div id="timeline" className="snap-always snap-center">
             <br />
-
+            <br />
             <p>Some story about lets see what all happened</p>
-            <br />
             <iframe
               src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1JUl7ELC-AImV7NfwoAAA9zl8PDWBgN1DS-R5hzmhWaM&font=Default&lang=en&initial_zoom=2&height=650"
               width="100%"
