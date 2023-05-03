@@ -2,7 +2,20 @@ import "./WhoAreThey.css";
 import millennialMan from "../assets/millennial-man.png";
 import millennialWoman from "../assets/millennial-woman.png";
 import Sticky from "react-stickynode";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+
+import { useEffect } from "react";
+
 const WhoAreThey = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1500,
+      easing: "ease",
+      once: false,
+    });
+  });
+
   return (
     <>
       <div className="center">
@@ -23,7 +36,7 @@ const WhoAreThey = () => {
           </p>
           <br />
           <br />
-          <div className="row center sixty">
+          <div className="row center sixty" data-aos="zoom-in-up">
             <div className="column center">
               <img
                 src={millennialMan}
@@ -61,6 +74,7 @@ const WhoAreThey = () => {
               mozallowfullscreen
               allowfullscreen
               frameborder="0"
+              data-aos="zoom-in-up"
             ></iframe>
           </div>
         </div>
