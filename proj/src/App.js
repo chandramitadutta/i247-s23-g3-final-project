@@ -1,21 +1,21 @@
 import "./App.css";
 import appLogo from "./assets/logo.png";
-import WhoAreThey from "./WhoAreThey/WhoAreThey";
+import WhoAreThey from "./WhoAreThey/MeetMillennials";
 import BridgingHouseholdGap from "./viz/BridgingHouseholdGap";
 import SameSexMarriageViz from "./viz/SameSexMarriageViz";
 import FamilyLiving from "./FamilyLiving/FamilyLiving";
 
 function App() {
-  const style = { width: 1000, height: 150 };
   return (
     <>
       <div className="center">
         <img src={appLogo} alt="Logo" id="logo" />
+        <div style={{ height: 120 }}></div>
         <WhoAreThey />
-        <br />
-        <FamilyLiving />
+        {/* <br /> */}
+        {/* <FamilyLiving />
         <BridgingHouseholdGap />
-        <SameSexMarriageViz />
+        <SameSexMarriageViz /> */}
       </div>
     </>
   );
