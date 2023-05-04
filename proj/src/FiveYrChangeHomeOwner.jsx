@@ -12,24 +12,26 @@ export default function FiveYrChangeHomeOwner() {
   });
 
   return (
-    <div>
-      <p>
+    <>
+      <p style={{ textAlign: "justify", fontSize: "1.5em" }}>
         Homeownership has changed a lot over the last 5 years.
         <br />
         In the dashboard below, click on different generations in the dropdown
         to see how the home-ownership landscape has changed
       </p>
+
+      <div style={{ height: 50 }}></div>
       <div
         className="tableauPlaceholder"
         id="viz1682902884393"
-        // style="position: relative"
+        style={{ position: "relative" }}
       >
         <noscript>
           <a href="#">
             <img
               alt="5-Year Change in home ownership in the 50 Largest U.S. Metro Areas (Select a generation in the dropdown to see how it has changed) "
               src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ma&#47;map-5year-change&#47;map&#47;1_rss.png"
-              style="border: none"
+              style={{ border: "none" }}
             />
           </a>
         </noscript>
@@ -53,6 +55,6 @@ export default function FiveYrChangeHomeOwner() {
           <param name="filter" value="publish=yes" />
         </object>
       </div>
-    </div>
+    </>
   );
 }

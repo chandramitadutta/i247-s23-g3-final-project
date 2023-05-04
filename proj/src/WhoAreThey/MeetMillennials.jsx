@@ -37,10 +37,7 @@ const WhoAreThey = () => {
 
         <Grid item xs={10}>
           <div
-            className="center"
-            snap-y
-            snap-mandatory
-            scroll-smooth
+            className="center snap-y snap-mandatory scroll-smooth"
             data-aos="zoom-in-up"
           >
             <div id="content-intro" className="snap-always snap-center">
@@ -89,7 +86,7 @@ const WhoAreThey = () => {
         </Grid>
 
         <Grid item xs={10}>
-          <div className="center" snap-y snap-mandatory scroll-smooth>
+          <div className="center snap-y snap-mandatory scroll-smooth">
             <div id="timeline" className="snap-always snap-center">
               <p style={{ textAlign: "justify", fontSize: "1.5em" }}>
                 Over the last four decades, Millennials have grown up in a
@@ -104,8 +101,8 @@ const WhoAreThey = () => {
                 height="650"
                 webkitallowfullscreen
                 mozallowfullscreen
-                allowfullscreen
-                frameborder="0"
+                allowFullScreen
+                frameBorder="0"
                 data-aos="zoom-in-up"
               ></iframe>
             </div>

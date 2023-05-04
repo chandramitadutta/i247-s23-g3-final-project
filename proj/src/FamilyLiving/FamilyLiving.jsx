@@ -1,4 +1,4 @@
-import FiveYrChangeHomeOwner from "./FiveYrChangeHomeOwner";
+import FiveYrChangeHomeOwner from "../FiveYrChangeHomeOwner";
 import MedianMarriageAge from "./MedianMarriageAge";
 import Sticky from "react-stickynode";
 
