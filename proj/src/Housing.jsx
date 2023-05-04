@@ -4,6 +4,7 @@ import FiveYrChangeHomeOwner from "./FiveYrChangeHomeOwner";
 import { useState, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
+import BridgingHouseholdGap from "./viz/BridgingHouseholdGap";
 
 export default function Housing() {
   const stickyTopOffset = 200;
@@ -14,7 +15,7 @@ export default function Housing() {
       duration: 2500,
       easing: "ease",
       once: false,
-      mirror: true,
+      mirror: false,
     });
   });
 
@@ -79,6 +80,7 @@ export default function Housing() {
             id="content"
           >
             {currentPage === "fiveYearChange" && <FiveYrChangeHomeOwner />}
+            {currentPage === "bridgingTheGap" && <BridgingHouseholdGap />}
           </div>
         </Grid>
       </Grid>

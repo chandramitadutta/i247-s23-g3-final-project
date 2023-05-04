@@ -13,7 +13,7 @@ export default function BridgingHouseholdGap() {
 
   return (
     <div>
-      <p>
+      <p style={{ textAlign: "justify", fontSize: "1.3em" }}>
         {" "}
         Over the years, the gap between married couple households and non-family
         households have bridged.

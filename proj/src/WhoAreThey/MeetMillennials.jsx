@@ -41,7 +41,7 @@ const WhoAreThey = () => {
             data-aos="zoom-in-up"
           >
             <div id="content-intro" className="snap-always snap-center">
-              <p style={{ textAlign: "justify", fontSize: "1.5em" }}>
+              <p style={{ textAlign: "justify", fontSize: "1.3em" }}>
                 Born between 1980 and 1996 in a rapidly changing world,
                 millennials have witnessed the world transcend like no other
                 generation.
@@ -55,7 +55,7 @@ const WhoAreThey = () => {
               />
 
               <br />
-              <p style={{ textAlign: "justify", fontSize: "1.5em" }}>
+              <p style={{ textAlign: "justify", fontSize: "1.3em" }}>
                 {" "}
                 With one of the largest generations at their helm, the economy
                 is on the brink of a transformation, driven by their distinct
@@ -88,7 +88,7 @@ const WhoAreThey = () => {
         <Grid item xs={10}>
           <div className="center snap-y snap-mandatory scroll-smooth">
             <div id="timeline" className="snap-always snap-center">
-              <p style={{ textAlign: "justify", fontSize: "1.5em" }}>
+              <p style={{ textAlign: "justify", fontSize: "1.3em" }}>
                 Over the last four decades, Millennials have grown up in a
                 rapidly changing and digitally connected world, shaping their
                 worldview and values. Let’s take a look at the events that
