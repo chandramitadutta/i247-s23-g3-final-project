@@ -56,7 +56,8 @@ const WhoAreThey = () => {
             src={fromTo}
             alt="fromTo"
             id="fromTo"
-            style={{ width: "100%" }}
+            style={{ width: "700px", height: "400px" }}
+            className="center-100"
           />
 
           <br />
@@ -71,13 +72,20 @@ const WhoAreThey = () => {
         </div>
       </div>
       <div id="population" data-aos="zoom-in-up">
-        <img src={populationPercentage} />
+        <img
+          src={populationPercentage}
+          style={{ width: "700px", height: "400px" }}
+          className="center-100"
+        />
       </div>
       <div id="workforce-spending" data-aos="zoom-in-up">
-        <img src={workforceSpending} />
+        <img
+          src={workforceSpending}
+          style={{ width: "700px", height: "400px" }}
+          className="center-100"
+        />
       </div>
 
-      <div style={{ height: 200 }}></div>
       {/* MILLENNIAL ERA */}
       <Sticky
         top={stickyTopOffset}

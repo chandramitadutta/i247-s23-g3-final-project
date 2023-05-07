@@ -5,6 +5,7 @@ import Housing from "./Housing";
 import FamilyRelationships from "./FamilyRelationships";
 import PuttingOffParenthood from "./PuttingOffParenthood";
 import SpendingHabits from "./SpendingHabits";
+import LivingWithParents from "./LivingWithParents";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Housing />
         <PuttingOffParenthood />
         <SpendingHabits />
+        <LivingWithParents />
         {/* <FamilyLiving />
         <BridgingHouseholdGap />
         <SameSexMarriageViz /> */}
