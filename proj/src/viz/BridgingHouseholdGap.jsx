@@ -2,10 +2,10 @@ import { useEffect } from "react";
 
 export default function BridgingHouseholdGap() {
   useEffect(() => {
-    const divElement = document.getElementById("viz1682372971996");
+    const divElement = document.getElementById("viz1683447817518");
     const vizElement = divElement.getElementsByTagName("object")[0];
-    vizElement.style.height = "550px";
-    vizElement.style.width = "100%";
+    vizElement.style.height = "850px";
+    vizElement.style.width = "950px";
     const scriptElement = document.createElement("script");
     scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
     vizElement.parentNode.insertBefore(scriptElement, vizElement);
@@ -23,32 +23,30 @@ export default function BridgingHouseholdGap() {
       </p>
       <div
         className="tableauPlaceholder center-100"
-        id="viz1682372971996"
+        id="viz1683447817518"
         data-aos="zoom-in-up"
         style={{ position: "relative" }}
       >
         <noscript>
           <a href="#">
             <img
-              alt="Year- 1964 "
-              src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ho&#47;Householdconditions&#47;Householdconditions&#47;1_rss.png"
-              style="border: none"
+              alt="Dashboard 1 "
+              src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Li&#47;Livingconditionsovertheyears&#47;Dashboard1&#47;1_rss.png"
+              style={{ border: "none" }}
             />
           </a>
         </noscript>
-        <object className="tableauViz">
+        <object class="tableauViz" style={{ display: "none" }}>
           <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
           <param name="embed_code_version" value="3" />
-          <param name="site_root" value="" />
           <param
-            name="name"
-            value="Householdconditions&#47;Householdconditions"
+            name="path"
+            value="views&#47;Livingconditionsovertheyears&#47;Dashboard1?:language=en-US&amp;:embed=true"
           />
-          <param name="tabs" value="no" />
           <param name="toolbar" value="yes" />
           <param
             name="static_image"
-            value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ho&#47;Householdconditions&#47;Householdconditions&#47;1.png"
+            value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Li&#47;Livingconditionsovertheyears&#47;Dashboard1&#47;1.png"
           />
           <param name="animate_transition" value="yes" />
           <param name="display_static_image" value="yes" />
