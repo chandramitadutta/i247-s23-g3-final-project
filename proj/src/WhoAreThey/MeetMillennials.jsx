@@ -3,6 +3,8 @@ import Sticky from "react-stickynode";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 import fromTo from "../assets/from-to.png";
+import populationPercentage from "../assets/26percent.png";
+import workforceSpending from "../assets/workforce-spending.png";
 
 import { useEffect } from "react";
 import { Grid } from "@mui/material";
@@ -15,7 +17,7 @@ const WhoAreThey = () => {
       duration: 2500,
       easing: "ease",
       once: false,
-      mirror: true,
+      mirror: false,
     });
   });
 
@@ -25,7 +27,7 @@ const WhoAreThey = () => {
         <Grid item xs={2} style={{ verticalAlign: "center" }}>
           <Sticky
             top={stickyTopOffset}
-            bottomBoundary="#content-intro"
+            bottomBoundary="#workforce-spending"
             innerZ={9999}
             className="center"
           >
@@ -40,8 +42,8 @@ const WhoAreThey = () => {
             className="center snap-y snap-mandatory scroll-smooth"
             data-aos="zoom-in-up"
           >
-            <div id="content-intro" className="snap-always snap-center">
-              <p style={{ textAlign: "justify", fontSize: "1.3em" }}>
+            <div id="content-intro" className="snap-always snap-center ">
+              <p className="insight">
                 Born between 1980 and 1996 in a rapidly changing world,
                 millennials have witnessed the world transcend like no other
                 generation.
@@ -55,7 +57,7 @@ const WhoAreThey = () => {
               />
 
               <br />
-              <p style={{ textAlign: "justify", fontSize: "1.3em" }}>
+              <p className="insight">
                 {" "}
                 With one of the largest generations at their helm, the economy
                 is on the brink of a transformation, driven by their distinct
@@ -65,6 +67,12 @@ const WhoAreThey = () => {
                 untapped potential for businesses to thrive.
               </p>
             </div>
+          </div>
+          <div id="population" data-aos="zoom-in-up">
+            <img src={populationPercentage} />
+          </div>
+          <div id="workforce-spending" data-aos="zoom-in-up">
+            <img src={workforceSpending} />
           </div>
         </Grid>
       </Grid>
@@ -88,7 +96,7 @@ const WhoAreThey = () => {
         <Grid item xs={10}>
           <div className="center snap-y snap-mandatory scroll-smooth">
             <div id="timeline" className="snap-always snap-center">
-              <p style={{ textAlign: "justify", fontSize: "1.3em" }}>
+              <p className="insight">
                 Over the last four decades, Millennials have grown up in a
                 rapidly changing and digitally connected world, shaping their
                 worldview and values. Let’s take a look at the events that

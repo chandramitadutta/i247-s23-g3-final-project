@@ -13,7 +13,7 @@ export default function FiveYrChangeHomeOwner() {
 
   return (
     <>
-      <p style={{ textAlign: "justify", fontSize: "1.3em" }}>
+      <p className="insight">
         Homeownership has changed a lot over the last 5 years.
         <br />
         In the dashboard below, click on different generations below to see how
@@ -22,9 +22,10 @@ export default function FiveYrChangeHomeOwner() {
 
       <div style={{ height: 50 }}></div>
       <div
-        className="tableauPlaceholder"
+        className="tableauPlaceholder center-100"
         id="viz1683235565664"
         style={{ position: "relative" }}
+        data-aos="zoom-in-up"
       >
         <noscript>
           <a href="#">

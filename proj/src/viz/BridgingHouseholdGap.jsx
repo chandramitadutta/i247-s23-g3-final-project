@@ -13,7 +13,7 @@ export default function BridgingHouseholdGap() {
 
   return (
     <div>
-      <p style={{ textAlign: "justify", fontSize: "1.3em" }}>
+      <p className="insight">
         {" "}
         Over the years, the gap between married couple households and non-family
         households have bridged.
@@ -22,9 +22,10 @@ export default function BridgingHouseholdGap() {
         how the gap has bridged over time
       </p>
       <div
-        className="tableauPlaceholder"
+        className="tableauPlaceholder center-100"
         id="viz1682372971996"
-        // style="position: relative"
+        data-aos="zoom-in-up"
+        style={{ position: "relative" }}
       >
         <noscript>
           <a href="#">
