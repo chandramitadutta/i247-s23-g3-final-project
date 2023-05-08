@@ -23,7 +23,6 @@ export default function BridgingHouseholdGap() {
       <div
         className="tableauPlaceholder center-100"
         id="viz1683447817518"
-        data-aos="zoom-in-up"
         style={{ position: "relative" }}
       >
         <noscript>

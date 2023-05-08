@@ -25,7 +25,6 @@ export default function FiveYrChangeHomeOwner() {
         className="tableauPlaceholder center-100"
         id="viz1683235565664"
         style={{ position: "relative" }}
-        data-aos="zoom-in-up"
       >
         <noscript>
           <a href="#">

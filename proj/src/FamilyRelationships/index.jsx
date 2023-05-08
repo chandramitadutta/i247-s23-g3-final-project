@@ -23,7 +23,6 @@ const FamilyRelationships = () => {
     <>
       <div
         className="center snap-y snap-mandatory scroll-smooth"
-        data-aos="zoom-in-up"
         id="content-familyrelationships"
       >
         <SameSexMarriageViz />
@@ -47,17 +46,16 @@ const FamilyRelationships = () => {
             Escapades
           </u>
         </h3>
-        <div data-aos="zoom-in-up" className="center-100">
+        <div className="center-100">
           <img src={marriageAgeChange} />
         </div>
       </div>
 
-      <div data-aos="zoom-in-up">
+      <div>
         <BridgingHouseholdGap />
       </div>
       <div
         className="center snap-y snap-mandatory scroll-smooth"
-        data-aos="zoom-in-up"
         id="content-familyrelationships"
       >
         <h3
