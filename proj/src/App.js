@@ -47,13 +47,19 @@ function App() {
             topic by exploring millennials' family and relationship choices,
             their housing preferences, and how these factors impact their
             consumer behavior.
+            <br />
+            Millennials are challenging the traditional notion of relationships
+            and marriage. They prioritize individuality, inclusivity, and
+            flexibility in their romantic relationships. For them, marriage is
+            not necessarily the end goal, and they are open to alternative forms
+            of partnerships and family structures.
           </p>
         </div>
         <FamilyRelationships />
 
         <div style={{ height: 120 }}></div>
 
-        <Housing />
+        {/* <Housing /> */}
         <LivingWithParents />
         <div style={{ height: 120 }} id="lifestyleend"></div>
 
@@ -77,18 +83,12 @@ function App() {
           </Sticky>
         </div>
         <p className="insight">
-          Millennials have been dealt a rough hand when it comes to economic
-          development, having weathered major recessions just as they were
-          trying to establish themselves in the workforce. The Great Recession
-          hit just as they were getting their feet wet, causing unemployment and
-          sluggish wage growth that made it hard to build up a nest egg.
+          Millennials faced economic setbacks with the Great Recession as they
+          entered the workforce and are now hit with the pandemic just as they
+          should be advancing in their careers, causing layoffs, wage stagnation
+          and increasing debts. This generation seems to have constant obstacles
+          and heaps of debts to overcome.
           <br />
-          Now, just as they should be ascending into higher-paying roles, the
-          pandemic has thrown a wrench into the works, with the U.S. economy
-          contracting in 2020 and many millennials facing layoffs in the
-          industry. It seems as though this generation just can't catch a break.{" "}
-          <br />
-          Let's delve into the economic terrain of the millennial generation.
         </p>
 
         <div style={{ height: 50 }}></div>
@@ -108,8 +108,9 @@ function App() {
         <div style={{ height: 50 }}></div>
 
         <p className="insight">
-          A recent McKinsey study shows millennials don’t shy away from spending
-          money on both goods and experiences.
+          Despite grappling with student loans and a sluggish journey to
+          financial independence, millennials don’t shy away from spending money
+          on both goods and experiences.
         </p>
         <h3
           className="center text-2xl font-bold"
@@ -121,10 +122,8 @@ function App() {
         <img src={consumerism} />
 
         <p className="insight">
-          Despite grappling with student loans and a sluggish journey to
-          financial independence, millennials have an interesting way of
-          spending their money. They are known for indulging in both
-          experiential and materialistic purchases.
+          Millennials have an interesting way of spending their money. They are
+          known for indulging in both experiential and materialistic purchases.
         </p>
         <SpendingHabits />
 

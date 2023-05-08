@@ -39,7 +39,7 @@ const FamilyRelationships = () => {
             Escapades
           </u>
         </h3>
-        <div className="center-100">
+        <div className="center">
           <img src={marriageAgeChange} />
         </div>
       </div>
