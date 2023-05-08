@@ -9,7 +9,7 @@ import LivingWithParents from "./LivingWithParents";
 import Population from "./Population";
 import Sticky from "react-stickynode";
 import consumerism from "./assets/consumerism.svg";
-import takeaways from "./assets/takeaways.png";
+import takeaways from "./assets/takeaways.svg";
 
 function App() {
   return (
@@ -130,8 +130,8 @@ function App() {
         <SpendingHabits />
 
         <div id="consumersend" style={{ height: 50 }}></div>
+        <img src={takeaways} style={{ width: "110%" }} />
       </div>
-      <img src={takeaways} />
       <div style={{ height: 100 }}></div>
       <p className="insight center" style={{ marginBottom: 50 }}>
         Made with ❤️ <br />
