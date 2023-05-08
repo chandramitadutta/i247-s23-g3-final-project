@@ -101,11 +101,10 @@ function App() {
         </p>
         <iframe
           width="100%"
-          height="683"
+          height="684"
           frameborder="0"
-          src="https://observablehq.com/embed/d98d229f68b277cf@133?cells=myRadarChart"
+          src="https://observablehq.com/embed/d98d229f68b277cf?cells=myRadarChart"
         ></iframe>
-
         <div style={{ height: 50 }}></div>
 
         <p className="insight">

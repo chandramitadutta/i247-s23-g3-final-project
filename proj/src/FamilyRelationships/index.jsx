@@ -26,13 +26,6 @@ const FamilyRelationships = () => {
         id="content-familyrelationships"
       >
         <SameSexMarriageViz />
-
-        {/* <iframe
-          width="100%"
-          height="1084"
-          frameborder="0"
-          src="https://observablehq.com/embed/d98d229f68b277cf@125?cells=myRadarChart"
-        ></iframe> */}
       </div>
 
       <div>
