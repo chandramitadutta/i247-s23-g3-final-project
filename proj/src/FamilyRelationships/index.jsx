@@ -51,9 +51,8 @@ const FamilyRelationships = () => {
         </div>
       </div>
 
-      <div>
-        <BridgingHouseholdGap />
-      </div>
+      <BridgingHouseholdGap />
+
       <div
         className="center snap-y snap-mandatory scroll-smooth"
         id="content-familyrelationships"
