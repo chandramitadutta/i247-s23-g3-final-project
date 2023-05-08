@@ -8,6 +8,7 @@ import workforceSpending from "../assets/workforce-spending.png";
 
 import { useEffect } from "react";
 import { Grid } from "@mui/material";
+import Population from "../Population";
 
 const WhoAreThey = () => {
   const stickyTopOffset = 0;
@@ -60,28 +61,35 @@ const WhoAreThey = () => {
             className="center-100"
           />
 
-          <br />
-          <p className="insight">
+          {/* <p className="insight">
             {" "}
             With one of the largest generations at their helm, the economy is on
             the brink of a transformation, driven by their distinct experiences
             that will revolutionize the landscape of buying and selling. <br />
             Uncover the key events shaping their worldview and unlock the
             untapped potential for businesses to thrive.
+          </p> */}
+          <p className="insight">
+            As the largest generation in the workforce and at their prime
+            spending age, millennials are shaping various aspects of society
+            with their values, preferences, and behaviors.
           </p>
         </div>
       </div>
       <div id="population" data-aos="zoom-in-up">
         <img
           src={populationPercentage}
-          style={{ width: "700px", height: "400px" }}
+          style={{ width: "900px", height: "600px" }}
           className="center-100"
         />
+      </div>
+      <div data-aos="zoom-in-up">
+        <Population />
       </div>
       <div id="workforce-spending" data-aos="zoom-in-up">
         <img
           src={workforceSpending}
-          style={{ width: "700px", height: "400px" }}
+          style={{ width: "900px", height: "600px" }}
           className="center-100"
         />
       </div>

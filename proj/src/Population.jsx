@@ -4,8 +4,8 @@ export default function Population() {
   useEffect(() => {
     const divElement = document.getElementById("viz1683451179852");
     const vizElement = divElement.getElementsByTagName("object")[0];
-    vizElement.style.width = "950px";
-    vizElement.style.height = "450px";
+    vizElement.style.width = "1100px";
+    vizElement.style.height = "650px";
     const scriptElement = document.createElement("script");
     scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
     vizElement.parentNode.insertBefore(scriptElement, vizElement);

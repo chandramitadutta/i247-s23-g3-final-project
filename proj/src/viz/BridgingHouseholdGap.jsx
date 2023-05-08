@@ -13,14 +13,13 @@ export default function BridgingHouseholdGap() {
 
   return (
     <div>
-      <p className="insight">
-        {" "}
-        Over the years, the gap between married couple households and non-family
-        households have bridged.
-        <br />
-        Click on the <strong>Play</strong> button next to the chart below to see
-        how the gap has bridged over time
-      </p>
+      <h3
+        className="center text-2xl font-bold"
+        id="header"
+        style={{ color: "#246a73", marginTop: "50px" }}
+      >
+        <u>Knot or Not: Untangling the Declining Divide in Modern Unions</u>
+      </h3>
       <div
         className="tableauPlaceholder center-100"
         id="viz1683447817518"

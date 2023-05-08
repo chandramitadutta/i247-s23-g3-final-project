@@ -13,7 +13,17 @@ export default function SameSexMarriageViz() {
 
   return (
     <div>
-      <p>Some quote about same sex marriage</p>
+      <h3
+        className="center text-2xl font-bold"
+        id="header"
+        style={{ color: "#246a73", marginTop: "50px" }}
+      >
+        <u>
+          Love Takes Over: A look at the Changing Landscape of Same-sex
+          Households
+        </u>
+      </h3>
+
       <div className="tableauPlaceholder center-100" id="viz1683447547627">
         <noscript>
           <a href="#">

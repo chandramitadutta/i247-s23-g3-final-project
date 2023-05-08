@@ -16,8 +16,8 @@ export default function FiveYrChangeHomeOwner() {
       <p className="insight">
         Homeownership has changed a lot over the last 5 years.
         <br />
-        In the dashboard below, click on different generations below to see how
-        the home-ownership landscape has changed
+        In the visualization below, choose different generations to see how the
+        home-ownership landscape has changed
       </p>
 
       <div style={{ height: 50 }}></div>

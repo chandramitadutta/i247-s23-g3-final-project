@@ -21,7 +21,6 @@ export default function Housing() {
       <div className="center snap-y snap-mandatory scroll-smooth">
         <FiveYrChangeHomeOwner />
         <div style={{ height: 50 }}></div>
-        <BridgingHouseholdGap />
       </div>
     </>
   );
